@@ -23,10 +23,21 @@
 
 ### Требования
 
+**Минимальные:**
 - Python 3.10+
 - ffmpeg (для конвертации голосовых)
+- 4 GB RAM (Whisper medium модель занимает ~1.5 GB)
+- 10 GB свободного места на диске
+- 2+ CPU ядра
+
+**Рекомендуемые:**
+- 8 GB RAM
+- 20 GB SSD
+- 4+ CPU ядер (для быстрого распознавания голоса)
+
+**API токены:**
 - Telegram Bot Token
-- Todoist API Token
+- Todoist API Token  
 - OpenRouter API Key
 
 ### Установка
